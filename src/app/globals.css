@@ -136,7 +136,6 @@ header {
   display: flex;
   width: 960px;
   margin: 10px auto;
-  border: solid 1px blue;
 }
 
 .titles h1 {
@@ -145,18 +144,158 @@ header {
 
 .titles h2 {
   font-size: 21px;
-  margin-left: 564px;
+  margin-left: 565px;
+}
+
+.title {
+  width: 960px;
+  margin: 10px auto;
+}
+
+.title h1 {
+  font-size: 21px;
+}
+
+.subtitle {
+  display: flex;
+  width: 960px;
+  margin: 22px auto;
+}
+
+.subtitle h1 {
+  margin-left: 32px;
+  color: rgb(100, 100, 100);
+}
+
+.subtitle h2 {
+  margin-left: 205px;
+  color: rgb(100, 100, 100);
+}
+
+.subtitle h3 {
+  margin-left: 110px;
+  color: rgb(100, 100, 100);
+}
+
+.subtitle h4 {
+  margin-left: 128px;
+  color: rgb(100, 100, 100);
+}
+
+.subtitle h5 {
+  margin-left: 100px;
+  color: rgb(100, 100, 100);
+}
+
+.subtitle h6 {
+  margin-left: 90px;
+  color: rgb(100, 100, 100);
+}
+
+.graphic3 {
+  display: flex;
+  width: 960px;
+  margin: 20px auto;
+  background-color: black;
+  border-radius: 8px;
+  height: 38px;
+}
+
+.icone6 {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.text19 {
+  margin-left: 8px;
+  height: 14px;
+  margin-top: 6px;
+}
+
+.text20 {
+  margin-left: 90px;
+  height: 14px;
+  margin-top: 6px;
+}
+
+.text21 {
+  margin-left: 90px;
+  height: 14px;
+  color: rgb(220, 50, 60);
+  margin-top: 6px;
+}
+
+.text22 {
+  margin-left: 90px;
+  height: 14px;
+  margin-top: 6px;
+}
+
+.text23 {
+  margin-left: 90px;
+  height: 14px;
+  margin-top: 6px;
+}
+
+.text24 {
+  margin-left: auto;
+  margin-right: 40px;
+  height: 14px;
+  margin-top: 6px;
+}
+
+.graphic4 {
+  display: flex;
+  width: 960px;
+  margin: 10px auto;
+  background-color: black;
+  border-radius: 8px;
+  height: 38px;
+}
+
+.icone7 {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.text25 {
+  margin-left: 8px;
+  height: 14px;
+  margin-top: 6px;
+}
+
+.text26 {
+  margin-left: 90px;
+  height: 14px;
+  margin-top: 6px;
+}
+
+.text27 {
+  margin-left: 90px;
+  height: 14px;
+  color: rgb(220, 50, 60);
+  margin-top: 6px;
+}
+
+.text28 {
+  margin-left: 90px;
+  height: 14px;
+  margin-top: 6px;
+}
+
+.text29 {
+  margin-left: 90px;
+  height: 14px;
+  margin-top: 6px;
 }
 
 .graphics {
   display: flex;
-  border: solid 1px red;
   margin: 10px auto;
   width: 960px;
 }
 
 .graphic1 {
-  border: solid 1px blue;
   height: 200;
   width: 635px;
   background-color: black;
@@ -164,9 +303,192 @@ header {
 }
 
 .graphic2 {
-  border: solid 1px blue;
   margin-left: 10px;
   width: 315px;
   background-color: black;
   border-radius: 8px;
+}
+
+.graphic2-1 {
+  display: flex;
+  background-color: rgb(220, 50, 60);
+  border-radius: 8px;
+  height: 31px; 
+}
+
+.icone {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.text1 {
+  margin-left: 8px;
+  margin-top: 2px;
+  height: 15px;
+  color: black;
+}
+
+.text2 {
+  margin-left: 40px;
+  margin-top: 2px;
+  height: 15px;
+  color: black;
+}
+
+.text3 {
+  margin-left: auto;
+  margin-right: 8px;
+  margin-top: 2px;
+  height: 15px;
+  color: black;
+}
+
+.graphic2-2 {
+  display: flex;
+  height: 31px;
+  margin-top: 2px;
+}
+
+.icone1 {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.text4 {
+  margin-left: 8px;
+  margin-top: 2px;
+  height: 15px;
+}
+
+.text5 {
+  margin-left: 68px;
+  margin-top: 2px;
+  height: 15px;
+}
+
+.text6 {
+  margin-left: auto;
+  margin-right: 8px;
+  margin-top: 2px;
+  height: 15px;
+}
+
+.graphic2-3 {
+  display: flex;
+  height: 31px; 
+  margin-top: 2px;
+}
+
+.icone2 {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.text7 {
+  margin-left: 8px;
+  margin-top: 2px;
+  height: 15px;
+}
+
+.text8 {
+  margin-left: 41px;
+  margin-top: 2px;
+  height: 15px;
+}
+
+.text9 {
+  margin-left: auto;
+  margin-right: 8px;
+  margin-top: 2px;
+  height: 15px;
+}
+
+.graphic2-4 {
+  display: flex;
+  height: 31px; 
+  margin-top: 2px;
+}
+
+.icone3 {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.text10 {
+  margin-left: 8px;
+  margin-top: 2px;
+  height: 15px;
+}
+
+.text11 {
+  margin-left: 41px;
+  margin-top: 2px;
+  height: 15px;
+}
+
+.text12 {
+  margin-left: auto;
+  margin-right: 8px;
+  margin-top: 2px;
+  height: 15px;
+}
+
+.graphic2-5 {
+  display: flex;
+  height: 31px; 
+  margin-top: 2px;
+}
+
+.icone4 {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.text13 {
+  margin-left: 8px;
+  margin-top: 2px;
+  height: 15px;
+}
+
+.text14 {
+  margin-left: 41px;
+  margin-top: 2px;
+  height: 15px;
+}
+
+.text15 {
+  margin-left: auto;
+  margin-right: 8px;
+  margin-top: 2px;
+  height: 15px;
+}
+
+.graphic2-6 {
+  display: flex;
+  height: 31px; 
+  margin-top: 2px;
+}
+
+.icone5 {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.text16 {
+  margin-left: 8px;
+  margin-top: 2px;
+  height: 15px;
+}
+
+.text17 {
+  margin-left: 41px;
+  margin-top: 2px;
+  height: 15px;
+}
+
+.text18 {
+  margin-left: auto;
+  margin-right: 8px;
+  margin-top: 2px;
+  height: 15px;
 }

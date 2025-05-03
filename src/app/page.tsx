@@ -37,7 +37,88 @@ export default function Home() {
     </div>
     <div className="graphics">
       <div className="graphic1"></div>
-      <div className="graphic2"></div>
+      <div className="graphic2">
+        <div className="graphic2-1">
+          <div className="icone">
+            <img src="/cooking-pot-black.svg" alt="Graphic"/>
+          </div>
+          <div className="text1">Alimentação</div>
+          <div className="text2">10</div>
+          <div className="text3">R$ 1.508,15</div>
+        </div>
+        <div className="graphic2-2">
+          <div className="icone1">
+            <img src="/shopping-basket.svg" alt="Graphic"/>
+          </div>
+          <div className="text4">Mercado</div>
+          <div className="text5">8</div>
+          <div className="text6">R$ 508,90</div>
+        </div>
+        <div className="graphic2-3">
+          <div className="icone2">
+            <img src="/cooking-pot-white.svg" alt="Graphic"/>
+          </div>
+          <div className="text7">Alimentação</div>
+          <div className="text8">10</div>
+          <div className="text9">R$ 1.508,15</div>
+        </div>
+        <div className="graphic2-4">
+          <div className="icone3">
+            <img src="/cooking-pot-white.svg" alt="Graphic"/>
+          </div>
+          <div className="text10">Alimentação</div>
+          <div className="text11">10</div>
+          <div className="text12">R$ 1.508,15</div>
+        </div>
+        <div className="graphic2-5">
+          <div className="icone4">
+            <img src="/cooking-pot-white.svg" alt="Graphic"/>
+          </div>
+          <div className="text13">Alimentação</div>
+          <div className="text14">10</div>
+          <div className="text15">R$ 1.508,15</div>
+        </div>
+        <div className="graphic2-6">
+          <div className="icone5">
+            <img src="/cooking-pot-white.svg" alt="Graphic"/>
+          </div>
+          <div className="text16">Alimentação</div>
+          <div className="text17">10</div>
+          <div className="text18">R$ 1.508,15</div>
+        </div>
+      </div>
+    </div>
+    <div className="title">
+      <h1>Transações</h1>
+    </div>
+    <div className="subtitle">
+      <h1>Descrição</h1>
+      <h2>Tipo</h2>
+      <h3>Valor</h3>
+      <h4>Banco</h4>
+      <h5>Data</h5>
+      <h6>Parcelas</h6>
+    </div>
+    <div className="graphic3">
+          <div className="icone6">
+            <img src="/shopping-basket-16.svg" alt="Graphic"/>
+          </div>
+          <div className="text19">Supermercado Big Master</div>
+          <div className="text20">Crédito</div>
+          <div className="text21">R$ 896,00</div>
+          <div className="text22">Nubank</div>
+          <div className="text23">21/03/2024</div>
+          <div className="text24">1/1</div>
+    </div>
+    <div className="graphic4">
+          <div className="icone7">
+            <img src="/shopping-basket-16.svg" alt="Graphic"/>
+          </div>
+          <div className="text25">Supermercado Big Master</div>
+          <div className="text26">Crédito</div>
+          <div className="text27">R$ 896,00</div>
+          <div className="text28">Nubank</div>
+          <div className="text29">21/03/2024</div>
     </div>
     </>
   )
