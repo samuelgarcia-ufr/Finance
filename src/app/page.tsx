@@ -31,6 +31,14 @@ export default function Home() {
         <h3>Somadas todas as entradas e saídas do período</h3>
       </div>
     </section>
+    <div className="titles">
+      <h1>Análises</h1>
+      <h2>Categorias</h2>
+    </div>
+    <div className="graphics">
+      <div className="graphic1"></div>
+      <div className="graphic2"></div>
+    </div>
     </>
   )
 }

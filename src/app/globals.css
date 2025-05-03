@@ -19,11 +19,7 @@ body {
 }
 
 header {
-  /*border: solid 1px blue;*/
   display: flex;
-  /*margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;*/
   margin: 20px auto;
   width: 960px;
 }
@@ -36,14 +32,12 @@ header {
 }
 
 .cards {
-  /*border: solid 2px red;*/
   margin: auto;
   display: flex;
   width: 960px;
 }
 
 .card1 {
-  /*border: solid 1px blue;*/
   width: 313px;
   background-color: black;
   border-radius: 8px;
@@ -75,7 +69,6 @@ header {
 }
 
 .card2 {
-  /*border: solid 1px blue;*/
   width: 313px;
   margin-left: 10px;
   background-color: black;
@@ -108,7 +101,6 @@ header {
 }
 
 .card3 {
-  /*border: solid 1px blue;*/
   width: 313px;
   margin-left: 10px;
   background-color: black;
@@ -138,4 +130,43 @@ header {
   font-size: 12px;
   margin-bottom: 8px;
   color: rgb(100, 100, 100);
+}
+
+.titles {
+  display: flex;
+  width: 960px;
+  margin: 10px auto;
+  border: solid 1px blue;
+}
+
+.titles h1 {
+  font-size: 21px;
+}
+
+.titles h2 {
+  font-size: 21px;
+  margin-left: 564px;
+}
+
+.graphics {
+  display: flex;
+  border: solid 1px red;
+  margin: 10px auto;
+  width: 960px;
+}
+
+.graphic1 {
+  border: solid 1px blue;
+  height: 200;
+  width: 635px;
+  background-color: black;
+  border-radius: 8px;
+}
+
+.graphic2 {
+  border: solid 1px blue;
+  margin-left: 10px;
+  width: 315px;
+  background-color: black;
+  border-radius: 8px;
 }
