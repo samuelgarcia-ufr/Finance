@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #1A1A1A;
   --foreground: #171717;
 }
 
@@ -48,6 +48,7 @@ header {
   font-size: 12px; 
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .card1 img {
@@ -80,6 +81,7 @@ header {
   font-size: 12px;
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .card2 img {
@@ -112,6 +114,7 @@ header {
   font-size: 12px;
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .card3 img {
@@ -140,11 +143,13 @@ header {
 
 .titles h1 {
   font-size: 21px;
+  color: white;
 }
 
 .titles h2 {
   font-size: 21px;
-  margin-left: 565px;
+  margin-left: 576px;
+  color: white;
 }
 
 .title {
@@ -192,103 +197,6 @@ header {
   color: rgb(100, 100, 100);
 }
 
-.graphic3 {
-  display: flex;
-  width: 960px;
-  margin: 20px auto;
-  background-color: black;
-  border-radius: 8px;
-  height: 38px;
-}
-
-.icone6 {
-  margin-left: 8px;
-  margin-top: 8px;
-}
-
-.text19 {
-  margin-left: 8px;
-  height: 14px;
-  margin-top: 6px;
-}
-
-.text20 {
-  margin-left: 90px;
-  height: 14px;
-  margin-top: 6px;
-}
-
-.text21 {
-  margin-left: 90px;
-  height: 14px;
-  color: rgb(220, 50, 60);
-  margin-top: 6px;
-}
-
-.text22 {
-  margin-left: 90px;
-  height: 14px;
-  margin-top: 6px;
-}
-
-.text23 {
-  margin-left: 90px;
-  height: 14px;
-  margin-top: 6px;
-}
-
-.text24 {
-  margin-left: auto;
-  margin-right: 40px;
-  height: 14px;
-  margin-top: 6px;
-}
-
-.graphic4 {
-  display: flex;
-  width: 960px;
-  margin: 10px auto;
-  background-color: black;
-  border-radius: 8px;
-  height: 38px;
-}
-
-.icone7 {
-  margin-left: 8px;
-  margin-top: 8px;
-}
-
-.text25 {
-  margin-left: 8px;
-  height: 14px;
-  margin-top: 6px;
-}
-
-.text26 {
-  margin-left: 90px;
-  height: 14px;
-  margin-top: 6px;
-}
-
-.text27 {
-  margin-left: 90px;
-  height: 14px;
-  color: rgb(220, 50, 60);
-  margin-top: 6px;
-}
-
-.text28 {
-  margin-left: 90px;
-  height: 14px;
-  margin-top: 6px;
-}
-
-.text29 {
-  margin-left: 90px;
-  height: 14px;
-  margin-top: 6px;
-}
-
 .graphics {
   display: flex;
   margin: 10px auto;
@@ -311,7 +219,7 @@ header {
 
 .graphic2-1 {
   display: flex;
-  background-color: rgb(220, 50, 60);
+  background-color: rgba(60,60,60);
   border-radius: 8px;
   height: 31px; 
 }
@@ -325,14 +233,14 @@ header {
   margin-left: 8px;
   margin-top: 2px;
   height: 15px;
-  color: black;
+  color: white;
 }
 
 .text2 {
   margin-left: 40px;
   margin-top: 2px;
   height: 15px;
-  color: black;
+  color: white;
 }
 
 .text3 {
@@ -340,7 +248,7 @@ header {
   margin-right: 8px;
   margin-top: 2px;
   height: 15px;
-  color: black;
+  color: white;
 }
 
 .graphic2-2 {
@@ -358,12 +266,14 @@ header {
   margin-left: 8px;
   margin-top: 2px;
   height: 15px;
+  color: white;
 }
 
 .text5 {
   margin-left: 68px;
   margin-top: 2px;
   height: 15px;
+  color: white;
 }
 
 .text6 {
@@ -371,6 +281,7 @@ header {
   margin-right: 8px;
   margin-top: 2px;
   height: 15px;
+  color: white;
 }
 
 .graphic2-3 {
@@ -388,12 +299,14 @@ header {
   margin-left: 8px;
   margin-top: 2px;
   height: 15px;
+  color: white;
 }
 
 .text8 {
   margin-left: 41px;
   margin-top: 2px;
   height: 15px;
+  color: white;
 }
 
 .text9 {
@@ -401,6 +314,7 @@ header {
   margin-right: 8px;
   margin-top: 2px;
   height: 15px;
+  color: white;
 }
 
 .graphic2-4 {
@@ -418,12 +332,14 @@ header {
   margin-left: 8px;
   margin-top: 2px;
   height: 15px;
+  color: white;
 }
 
 .text11 {
   margin-left: 41px;
   margin-top: 2px;
   height: 15px;
+  color: white;
 }
 
 .text12 {
@@ -431,6 +347,7 @@ header {
   margin-right: 8px;
   margin-top: 2px;
   height: 15px;
+  color: white;
 }
 
 .graphic2-5 {
@@ -448,12 +365,14 @@ header {
   margin-left: 8px;
   margin-top: 2px;
   height: 15px;
+  color: white;
 }
 
 .text14 {
   margin-left: 41px;
   margin-top: 2px;
   height: 15px;
+  color: white;
 }
 
 .text15 {
@@ -461,6 +380,7 @@ header {
   margin-right: 8px;
   margin-top: 2px;
   height: 15px;
+  color: white;
 }
 
 .graphic2-6 {
@@ -478,12 +398,14 @@ header {
   margin-left: 8px;
   margin-top: 2px;
   height: 15px;
+  color: white;
 }
 
 .text17 {
   margin-left: 41px;
   margin-top: 2px;
   height: 15px;
+  color: white;
 }
 
 .text18 {
@@ -491,4 +413,114 @@ header {
   margin-right: 8px;
   margin-top: 2px;
   height: 15px;
+  color: white;
+}
+
+
+.graphic3 {
+  display: flex;
+  width: 960px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  border-radius: 8px;
+  height: 38px;
+}
+
+.icone6 {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.text19 {
+  margin-left: 8px;
+  height: 14px;
+  margin-top: 6px;
+  color: white;
+}
+
+.text20 {
+  margin-left: 90px;
+  height: 14px;
+  margin-top: 6px;
+  color: white;
+}
+
+.text21 {
+  margin-left: 90px;
+  height: 14px;
+  color: rgb(220, 50, 60);
+  margin-top: 6px;
+}
+
+.text22 {
+  margin-left: 90px;
+  height: 14px;
+  margin-top: 6px;
+  color: white;
+}
+
+.text23 {
+  margin-left: 90px;
+  height: 14px;
+  margin-top: 6px;
+  color: white;
+}
+
+.text24 {
+  margin-left: auto;
+  margin-right: 40px;
+  height: 14px;
+  margin-top: 6px;
+  color: white;
+}
+
+.graphic4 {
+  display: flex;
+  width: 960px;
+  margin: 10px auto;
+  background-color: black;
+  border-radius: 8px;
+  height: 38px;
+}
+
+.icone7 {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.text25 {
+  margin-left: 8px;
+  height: 14px;
+  margin-top: 6px;
+  color: white;
+}
+
+.text26 {
+  margin-left: 90px;
+  height: 14px;
+  margin-top: 6px;
+  color: white;
+}
+
+.text27 {
+  margin-left: 90px;
+  height: 14px;
+  color: rgb(220, 50, 60);
+  margin-top: 6px;
+}
+
+.text28 {
+  margin-left: 90px;
+  height: 14px;
+  margin-top: 6px;
+  color: white;
+}
+
+.text29 {
+  margin-left: 90px;
+  height: 14px;
+  margin-top: 6px;
+  color: white;
 }

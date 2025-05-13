@@ -3,7 +3,13 @@ export default function Home() {
     <>
     <header>
       <img className="logo" src="/piggy-bank.svg" alt="Logo" width={40} height={40}/>
-      <img className="button" src="/circle-plus.svg" alt="Button" width={32} height={32}/>
+      <img 
+        className="button" 
+        src="/circle-plus.svg" 
+        alt="Button" 
+        width={32} 
+        height={32} 
+      />
     </header>
     <section className="cards">
       <div className="card1">
@@ -32,7 +38,7 @@ export default function Home() {
       </div>
     </section>
     <div className="titles">
-      <h1>Análises</h1>
+      <h1>Análise</h1>
       <h2>Categorias</h2>
     </div>
     <div className="graphics">
@@ -40,7 +46,7 @@ export default function Home() {
       <div className="graphic2">
         <div className="graphic2-1">
           <div className="icone">
-            <img src="/cooking-pot-black.svg" alt="Graphic"/>
+            <img src="/cooking-pot.svg" alt="Graphic"/>
           </div>
           <div className="text1">Alimentação</div>
           <div className="text2">10</div>
@@ -56,7 +62,7 @@ export default function Home() {
         </div>
         <div className="graphic2-3">
           <div className="icone2">
-            <img src="/cooking-pot-white.svg" alt="Graphic"/>
+            <img src="/cooking-pot.svg" alt="Graphic"/>
           </div>
           <div className="text7">Alimentação</div>
           <div className="text8">10</div>
@@ -64,7 +70,7 @@ export default function Home() {
         </div>
         <div className="graphic2-4">
           <div className="icone3">
-            <img src="/cooking-pot-white.svg" alt="Graphic"/>
+            <img src="/cooking-pot.svg" alt="Graphic"/>
           </div>
           <div className="text10">Alimentação</div>
           <div className="text11">10</div>
@@ -72,7 +78,7 @@ export default function Home() {
         </div>
         <div className="graphic2-5">
           <div className="icone4">
-            <img src="/cooking-pot-white.svg" alt="Graphic"/>
+            <img src="/cooking-pot.svg" alt="Graphic"/>
           </div>
           <div className="text13">Alimentação</div>
           <div className="text14">10</div>
@@ -80,7 +86,7 @@ export default function Home() {
         </div>
         <div className="graphic2-6">
           <div className="icone5">
-            <img src="/cooking-pot-white.svg" alt="Graphic"/>
+            <img src="/cooking-pot.svg" alt="Graphic"/>
           </div>
           <div className="text16">Alimentação</div>
           <div className="text17">10</div>
