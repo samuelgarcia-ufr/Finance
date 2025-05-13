@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       <div className="card2">
         <h1>
-          Saldos
+          Saídas
           <img src="/banknote-arrow-up.svg" alt="Graphic"/>
         </h1>
         <h2>R$ 1.580,45</h2>
