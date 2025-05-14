@@ -1,15 +1,16 @@
+import "./home.css";
+import Link from "next/link";
+
 export default function Home() {
   return (
     <>
     <header>
       <img className="logo" src="/piggy-bank.svg" alt="Logo" width={40} height={40}/>
-      <img 
-        className="button" 
-        src="/circle-plus.svg" 
-        alt="Button" 
-        width={32} 
-        height={32} 
-      />
+      <button className="add">
+        <Link href='modal'>  
+          <img src="/circle-plus.svg" alt="Button" width={32} height={32}/>
+        </Link> 
+      </button>
     </header>
     <section className="cards">
       <div className="card1">

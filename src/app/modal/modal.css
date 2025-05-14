@@ -1,0 +1,135 @@
+body {
+    background-color: #1A1A1A;
+}
+
+section {
+    background-color: black;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+    border-radius: 8px;
+}
+
+.one {
+    display: flex;
+}
+
+.one-1 h1 {
+    color: white;
+    font-size: 29px;
+    margin-left: 16px;
+    margin-top: 8px;    
+}
+
+.one-1 h2 {
+    color: gray;
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+.return {
+    margin-left: auto; 
+    margin-right: 16px;
+}
+
+.two h1 {
+    color: white;
+    margin-left: 16px;
+}
+
+.two-1 {
+    border: 1px solid gray;
+    margin: 8px 18px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.two-1 h1 {
+    margin: 14px 14px;
+}
+
+.three h1 {
+    color: white;
+    margin-left: 16px;
+}
+
+.three-1 {
+    border: 1px solid gray;
+    margin: 8px 18px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.three-1 h1 {
+    margin: 14px 14px;
+}
+
+.four h1 {
+    color: white;
+    margin-left: 16px;
+}
+
+.four-1 {
+    border: 1px solid gray;
+    margin: 8px 18px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.four-1 h1 {
+    margin: 14px 14px;
+}
+
+.five h1 {
+    color: white;
+    margin-left: 16px;
+}
+
+.five-1 {
+    border: 1px solid gray;
+    margin: 8px 18px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.five-1 h1 {
+    margin: 14px 14px;
+}
+
+.six h1 {
+    color: white;
+    margin-left: 16px;
+}
+
+.six-1 {
+    border: 1px solid gray;
+    margin: 8px 18px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.six-1 h1 {
+    margin: 14px 14px;
+}
+
+.botoes {
+    display: flex;
+    margin: 16px 16px;
+}
+
+.botao1 {
+    background-color: rgb(220, 50, 60);
+    border-radius: 8px;
+    size: 30px;
+    padding: 4px;
+}
+
+.botao2 {
+    background-color: rgb(60, 180, 120);
+    margin-left: auto;
+    border-radius: 8px;
+    size: 30px;
+    padding: 4px;
+}
