@@ -1,16 +1,15 @@
 import "./home.css";
 import Link from "next/link";
+import "../globals.css";
 
 export default function Home() {
   return (
     <>
     <header>
       <img className="logo" src="/piggy-bank.svg" alt="Logo" width={40} height={40}/>
-      <button className="add">
-        <Link href='modal'>  
+      <Link href='/modal' className="add">  
           <img src="/circle-plus.svg" alt="Button" width={32} height={32}/>
-        </Link> 
-      </button>
+      </Link>
     </header>
     <section className="cards">
       <div className="card1">

@@ -124,6 +124,7 @@ header {
 .titles h1 {
   font-size: 21px;
   color: white;
+  margin-left: 2px;
 }
 
 .titles h2 {

@@ -1,20 +1,19 @@
 import './modal.css';
 import { X } from 'lucide-react';
-import Link from "next/link";
+import Link from 'next/link';
+import "../globals.css";
 
 export default function modal() {
     return (
-        <section>
+        <section className='container'>
             <div className='one'>
                 <div className='one-1'>
                     <h1>Nova Transação</h1>
                     <h2>Inclua suas entradas e saídas sem complicações</h2>
                 </div>
-                <button className='return'>
-                    <Link href='home'>  
-                        <X color="white" size={24}/>
-                    </Link>
-                </button>
+                <Link href='/home' className='return'>
+                    <X color="white" size={24}/>
+                </Link>
             </div>
             <div className='two'>
                 <h1>Descrição da transação</h1>
