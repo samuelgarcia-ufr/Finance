@@ -13,18 +13,18 @@ import {
 } from 'recharts';
 
 const data = [
-  { name: 'Jan', entradas: 4000, saidas: 2400 },
-  { name: 'Feb', entradas: 3000, saidas: 1398 },
-  { name: 'Mar', entradas: 2000, saidas: 9800 },
-  { name: 'Apr', entradas: 2780, saidas: 3908 },
-  { name: 'May', entradas: 1890, saidas: 4800 },
-  { name: 'Jun', entradas: 2390, saidas: 3800 },
-  { name: 'Jul', entradas: 4000, saidas: 2400 },
-  { name: 'Ago', entradas: 3000, saidas: 1398 },
-  { name: 'Set', entradas: 2000, saidas: 9800 },
-  { name: 'Out', entradas: 2780, saidas: 3908 },
-  { name: 'Nov', entradas: 1890, saidas: 4800 },
-  { name: 'Dez', entradas: 2390, saidas: 3800 },
+  { name: 'Jan', Entradas: 4000, Saídas: 2400 },
+  { name: 'Fev', Entradas: 3000, Saídas: 1398 },
+  { name: 'Mar', Entradas: 2000, Saídas: 9800 },
+  { name: 'Abr', Entradas: 2780, Saídas: 3908 },
+  { name: 'Mai', Entradas: 1890, Saídas: 4800 },
+  { name: 'Jun', Entradas: 2390, Saídas: 3800 },
+  { name: 'Jul', Entradas: 4000, Saídas: 2400 },
+  { name: 'Ago', Entradas: 3000, Saídas: 1398 },
+  { name: 'Set', Entradas: 2000, Saídas: 9800 },
+  { name: 'Out', Entradas: 2780, Saídas: 3908 },
+  { name: 'Nov', Entradas: 1890, Saídas: 4800 },
+  { name: 'Dez', Entradas: 2390, Saídas: 3800 },
 ];
 
 export default function Chart() {
@@ -36,8 +36,8 @@ export default function Chart() {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="entradas" fill="rgb(60, 180, 120)" />
-          <Bar dataKey="saidas" fill="rgb(220, 50, 60)" />
+          <Bar dataKey="Entradas" fill="rgb(60, 180, 120)" />
+          <Bar dataKey="Saídas" fill="rgb(220, 50, 60)" />
         </BarChart>
       </ResponsiveContainer>
     </div>
