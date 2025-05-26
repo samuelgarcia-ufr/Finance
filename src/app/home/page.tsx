@@ -1,6 +1,7 @@
 import "./home.css";
 import Link from "next/link";
 import "../globals.css";
+import Chart from "@/components/chart"; 
 
 export default function Home() {
   return (
@@ -42,7 +43,7 @@ export default function Home() {
       <h2>Categorias</h2>
     </div>
     <div className="graphics">
-      <div className="graphic1"></div>
+      <div className="graphic1"><Chart/></div>
       <div className="graphic2">
         <div className="graphic2-1">
           <div className="icone">
